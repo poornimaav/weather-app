@@ -29,15 +29,15 @@ input{
 }
 #div1{
     /* border: 1px solid teal; */
-    width: 30%;
+    width: 50%;
 }
 #container{ 
     display: flex;
     justify-content: space-between;
     text-align: center;
-
+    
   /* border: 1px dotted red;  */
- width: fit-content;
+ width: 50%;
  height: fit-content;
  margin: auto;
  margin-top: 150px;
@@ -129,7 +129,7 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3)
             flex-direction: column;
             text-align: center;
          /* border: 1px dotted red; */
-          width: fit-content; 
+          width:50%; 
          height: fit-content;
          margin: auto;
          margin-top: 150px;
@@ -191,10 +191,10 @@ box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3)
             /* background-position: 100%; */
             /* border: 1px solid blue; */
         } 
-         #gmap_canvas{
+         /* #gmap_canvas{
             height: 400px;
             width: 250px;
-        } 
+        }  */
 
 }
     
