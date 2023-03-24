@@ -16,7 +16,7 @@ function getData(){
         console.log(err)
     });
 }
-//code to show your location weather
+// code to show your location weather
 function getYourLocation(lat,lon){
     //console.log("in")
 
@@ -45,7 +45,6 @@ function dailyReport(lat,log){
    })
    
 }
-
 
 function appendReport(data){
     
@@ -133,7 +132,7 @@ function append(data){
     div1.append(city,min,max,current,wind,humidity,pressure)
     container.append(div1,map);
 
-    map.src = `https://maps.google.com/maps?q=${data.name}&t=&z=13&ie=UTF8&iwloc=&output=embed`
+    // map.src = `https://maps.google.com/maps?q=${data.name}&t=&z=13&ie=UTF8&iwloc=&output=embed`
 }
 
 
