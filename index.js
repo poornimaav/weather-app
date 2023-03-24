@@ -16,7 +16,6 @@ function getData(){
         console.log(err)
     });
 }
-
 //code to show your location weather
 function getYourLocation(lat,lon){
     //console.log("in")
